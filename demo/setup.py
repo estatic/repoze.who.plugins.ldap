@@ -16,7 +16,8 @@ setup(
         "TurboGears2",
         "ToscaWidgets >= 0.9.1",
         "zope.sqlalchemy",
-        "repoze.who.plugins.ldap"
+        "repoze.who.plugins.ldap",
+        "repoze.who-friendlyform >= 1.0.4"
         ],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,

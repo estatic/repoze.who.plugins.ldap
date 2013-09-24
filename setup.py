@@ -50,8 +50,9 @@ setup(
     zip_safe=False,
     tests_require = ['dataflake.ldapconnection < 1.1dev'],
     install_requires=[
-        'repoze.who >= 1.0.6, < 2.0dev',
+        'repoze.who',
         'python-ldap>=2.3.5',
+        'repoze.who-friendlyform >= 1.0.4',
         'setuptools',
         'zope.interface'
         ],
